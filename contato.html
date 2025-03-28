@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="imagex/png" href="imagens/jordi-llobregat-logo-serie-removebg-preview.png">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Bestiário do The Witcher 3</title>
+</head>
+
+<body class="background">
+
+    <div class="pag_claro" id="menu">
+
+        <button id="slider" onclick="changeBackground()">
+            <img id="slider-image" src="imagens/sol.png" alt="Slider Image">
+        </button>
+
+        <a href="contato.html" class="href" class="A_claro" id="menu1"> Contato </a>
+        <a href="sobre.html" class="href" class="A_claro" id="menu2"> Sobre / </a>
+        <a href="home.html" class="href" class="A_claro" id="menu3"> Home / </a>
+    </div>
+
+
+
+
+    <div id="cabecario" class="pag_claro">
+        <h1>Bestiário dos Bruxos</h1>
+        <h3>The Witcher</h3>
+    </div>
+
+    <div id="pag" class="pag_claro">
+        <h1> Contrato: Soldados desaparecidos</h1>
+
+
+        <p>
+            Que saibam todos que o Exército Imperial precisa de alguém que conheça a área (um caçador ou batedor, por
+            exemplo) que nos ajude a encontrar uma patrulha que desapareceu.
+        </p>
+
+
+        <p>
+            É possível que um monstro tenha atacado os soldados. Se esta suspeita for confirmada, qualquer um que
+            entregar a cabeça da criatura receberá uma recompensa do anunciante. ele também dará mais informações sobre
+            o incidente.
+        </p>
+
+
+        <p>
+            Glória ao Imperador!
+        </p>
+
+
+        <p>-Milan Noran, comandante da divisão posicionada em Oreton </p>
+
+
+        <P class="center">
+            <img id="img1" src="imagens/animais.png">
+        </P>
+
+    </div>
+
+    <div id="pag1" class="pag_claro">
+        <div>
+            <center>
+                <h2>Acordo:</h2>
+
+                <form>
+                    <div id="jubiraumraumrau">
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" id="nome" required class="input-line"><br><br>
+
+                        <label for="idade">Idade:</label> <br>
+                        <input type="number" id="idade" required class="input-line"><br><br>
+
+                        <label for="especializacao">Especialização:</label> <br>
+                        <select id="especializacao" required class="input-line"> <br>
+                            <option id="op0" class="option_claro" value=""> Selecione uma especialização </option>
+                            <option id="op1" class="option_claro" value="Combate com espadas">Combate com espadas
+                            </option>
+                            <option id="op2" class="option_claro" value="Magia elemental">Magia elemental</option>
+                            <option id="op3" class="option_claro" value="Alquimia">Alquimia</option>
+                            <option id="op4" class="option_claro" value="Rastreamento de monstros">Rastreamento de
+                                monstros</option>
+                        </select><br><br>
+
+                        <label for="experiencia">Experiência (em anos):</label> <br>
+                        <input type="number" id="experiencia" required class="input-line"><br><br>
+
+                        <input id="formbut" type="button" class="input45" value="Enviar Inscrição" onclick="exibirRespostas()">
+                </form>
+                
+        </div><button id="VoltarBtn" class="input45" type="button" style="display: none;">Voltar ao formulário</button>
+
+        </center>
+
+    </div>
+    <div id="pag2" class="dictransp">
+        <div class="dictransp" id="final">
+            <br>
+            <div id="respostas"></div>
+        </div>
+    </div>
+   
+    </div>
+
+
+    <div id="rodape" class="pag_claro">
+        <center>
+            <p>
+                <strong>Nomes:</strong>
+            </p>
+            <p>
+                Sérgio Xavier de Oliveira Neto e Henrique Assink Alcantara
+            </p>
+            <p>
+                <strong>Dia da Finalização do Site:</strong> 20/06/2023
+            </p>
+
+            <p><strong>Aviso Legal:</strong> </p>
+
+            <p>
+                Este site não é oficial e não tem qualquer afiliação, endosso ou associação com "The Witcher", seja
+                a
+                série de livros escrita por Andrzej Sapkowski, os jogos desenvolvidos pela CD Projekt Red ou a
+                adaptação
+                televisiva da Netflix. Todo o conteúdo deste site é criado por fãs e tem como objetivo fornecer
+                informações, discussões e apreciação sobre o universo de "The Witcher". Embora tenhamos feito todos
+                os
+                esforços para garantir a precisão das informações apresentadas, não podemos garantir sua total
+                exatidão
+                ou atualização.
+            </p>
+
+            <p>
+                <strong>Agradecemos a você por utilizar de seu tempo para explorar nosso site.</strong>
+            </p>
+        </center>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
